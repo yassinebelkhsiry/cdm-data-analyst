@@ -47,15 +47,12 @@ Le projet contient plusieurs parties :
 - des notebooks Jupyter pour expliquer les etapes ;
 - du code Python organise dans le dossier `src` ;
 - une application Streamlit dans `main.py` ;
-- un fichier Power BI dans `dashboard` ;
-- un rapport final dans `reports`.
+- une structure claire pour ajouter plus tard un dashboard Power BI ou un rapport final si besoin.
 
 ## Structure du projet
 
 ```text
 .
-|-- dashboard/
-|   |-- WorldCup.pbix
 |-- data/
 |   |-- raw/
 |   |   |-- GoalScorers.csv
@@ -77,8 +74,6 @@ Le projet contient plusieurs parties :
 |   |-- 07_host_attendance.ipynb
 |   |-- 08_modern_kpi_dashboard.ipynb
 |   |-- 09_projection_limits.ipynb
-|-- reports/
-|   |-- figures/
 |-- src/
 |   |-- analysis.py
 |   |-- cleaning.py
@@ -131,12 +126,6 @@ Les notebooks servent a documenter le raisonnement.
 
 Ils permettent de tester, visualiser et expliquer les etapes de l'analyse de maniere progressive.
 
-### `dashboard`
-
-Ce dossier contient le fichier Power BI.
-
-Power BI permet de creer un dashboard plus visuel pour presenter les resultats a une audience non technique.
-
 ### `main.py`
 
 Ce fichier lance l'application Streamlit.
@@ -153,7 +142,6 @@ Streamlit sert a creer une application web simple et interactive avec Python. Da
 | Matplotlib | Creation de graphiques |
 | Streamlit | Dashboard interactif en ligne |
 | Jupyter Notebook | Exploration et documentation de l'analyse |
-| Power BI | Dashboard business et visualisation professionnelle |
 | Git / GitHub | Versioning et partage du projet |
 
 ## Indicateurs analyses
@@ -270,7 +258,7 @@ Le projet peut encore etre ameliore avec :
 - des graphiques Plotly interactifs ;
 - une analyse detaillee par pays ;
 - une analyse des meilleurs buteurs ;
-- une page Streamlit dediee au Power BI ;
+- une version Power BI complete ;
 - des captures d'ecran locales du dashboard ;
 - un deploiement en ligne avec Streamlit Community Cloud.
 
